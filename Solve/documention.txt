@@ -1,0 +1,4 @@
+1. flask sqlalchemy package yuklenir
+2. package install olunur
+3. db sablonu yazadilir
+4. python shell vasitesi ile db generate olunur

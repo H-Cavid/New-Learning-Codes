@@ -1,0 +1,71 @@
+body{
+    margin-top: 0px ;
+    background-image: linear-gradient(135deg,#667eea 0%, #764ba2 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}/* body hissesine aid kodlardi*/
+
+.login{
+    width: 400px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background: white;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    padding: 15px;
+}/* Login div-ne aid style-lardi*/
+.login-header{
+    text-align: center;
+    margin-bottom: 10px;
+}/*Login div-indeki sozlere aid style-lardi*/
+.login-header h4{
+    margin: 5px 0px ;
+}/*Ayrica h4-e verilmis style-dir*/
+.login-header p{
+    margin: 0px;
+}/*Ayrica p-e verilmis style-dir*/
+.login-input-group input{
+    display: block;
+    padding: 5px 10px;
+    width: calc(100% - 20px);
+    border: 1px solid lightgrey;
+    margin: 5px 0px;
+    border-radius: 5px;/*kenarlari ovallasdirir*/
+    outline: none;
+}/*login-input-group div-ine aid style-lardi*/
+.login-input-group input:hover{
+    border:1px solid purple;
+}/*sicani ustune getirende rengi deyisir*/
+.login-input-group input:focus{
+    outline: 1px solid rgb(10, 9, 9);
+}/*misqaynan secende cedvelin ici butunlukle verdiyin reng olur*/
+.login-remember{
+    margin:5px 0px 0px 5px;
+}/*Remember me div-ine aid style-di*/
+.login-button-group{
+    background: lightgray;
+    border-top:1px solid gray;
+    padding:10px;
+    width:calc(100%+20px);
+    margin-left: -15px;
+    margin-bottom:-15px;
+    display: flex;
+    justify-content: flex-end;
+}/*.login-button-group divine aid style-lardi*/
+.login-button-group button{
+    margin-left: 10px;
+    border:none;
+    box-shadow:0px 0px 5px gray;
+    padding: 7px;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    transition:all .3s cubic-bezier()
+}/*sirf button-a aid style-lardi*/
+.login-button-group button:hover{
+    background: darkblue;
+}/*button-nun uzerine misqani getirende rengin deyismesine sebeb olan kodlardi*/

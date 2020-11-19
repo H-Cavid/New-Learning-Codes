@@ -1,0 +1,98 @@
+/*.humans {*/
+/*    background-color: tomato;*/
+/*    color: yellow;*/
+/*    padding: 10px;*/
+/*}*/
+/*ul{*/
+/*list-style-type: none;*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*overflow: hidden;*/
+/*background-color: darkblue;*/
+/*}*/
+/*li{*/
+/*    float:left;*/
+/*}*/
+/*li a {*/
+/*    display: block;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    padding: 46px;*/
+/*    text-decoration: none;*/
+/*}*/
+/*li a:hover{*/
+/*    background-color: darkblue;*/
+/*     }*/
+/*.myDiv{*/
+/*    border: 5px white;*/
+/*    margin: 900px;*/
+/*    background-color: darkblue;*/
+/*    text-align: center;*/
+/*}*/
+
+
+
+/*.first{*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    background-color: blue;*/
+/*}*/
+/*.first2{*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    background-color: red;*/
+/*}*/
+/*.first3{*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    background-color:dodgerblue;*/
+/*}*/
+/*.first4{*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    background-color: green;*/
+/*}*/
+
+/*.container{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-around;*/
+/*    height: 150px;*/
+/*    align-items: center;*/
+/*}*/
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+
+
+}
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.nav li {
+    color: red;
+    font-size: 18px;
+     margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+ .nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+
+}
+    .nav li {
+         font-size: 24px;
+    }
+}
+

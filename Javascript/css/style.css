@@ -1,0 +1,46 @@
+body,
+h1,
+h4,
+h5,
+p {
+    padding: 0px;
+    margin: 0px
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+.card {
+    width: 500px;
+    /* border: 1px solid lightgray; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.card-header {
+    padding: 10px 10px;
+    background: gray;
+    cursor: pointer;
+}
+
+.card .card-body {
+    border: 1px solid lightgray;
+    padding: 20px 10px;
+    transition: all .3s ease;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: relative;
+    left: 0px;
+    transition: all .3s ease;
+}

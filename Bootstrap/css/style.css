@@ -1,0 +1,8 @@
+.newsItem{
+    transition:all 3sc ease;
+    margin: 0px --10px;
+}
+.newsItem:hover{
+    box-shadow: 0px 0px 7px gray;
+
+}
